@@ -1,0 +1,23 @@
+{
+    "name": "flogoxml2json",
+    "type": "flogo:activity",
+    "ref": "github.com/abasse/flogoxml2json",
+    "version": "0.0.1",
+    "title": "XML2JSON",
+    "description": "Converts XML to JSON",
+    "homepage": "https://github.com/abasse/flogoxml2json",
+      "inputs":[
+        {
+          "name": "input",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "outputs": [
+         {
+            "name": "result",
+            "type": "string"
+          }
+      ]
+  }
+  
