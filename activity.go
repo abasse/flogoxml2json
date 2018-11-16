@@ -27,7 +27,7 @@ func (a *Xml2jsonActivity) Metadata() *activity.Metadata {
 
 func (a *Xml2jsonActivity) Eval(context activity.Context) (done bool, err error) {
 
-	xmlinput, _ := context.GetInput("Input").(string)
+	xmlinput, _ := context.GetInput("input").(string)
 
 	xml := strings.NewReader(xmlinput)
 	json, err := xj.Convert(xml)
